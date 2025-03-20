@@ -1,16 +1,10 @@
-var a = 5
-var b = 10
+const array = [2,3,4,5,6]; // criando array
 
-function soma(x,y){
-    let sum = x + y
-    return sum
-}
-
-console.log(soma(a,b))
-
-
-const sub = (a,b)=> {
-
-    return a-b;
-}
-console.log(sub)
+array.forEach(item =>{ // para cada item do array faça 
+    if(item %2===o){ // se for par...
+        console.log(`O numero é ${item} é par`);
+    }
+    else{ // senão for 
+        console.log(`O numero é ${item} é impar`); //...faça isso
+    }
+});
