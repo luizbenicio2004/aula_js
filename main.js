@@ -1,17 +1,14 @@
-var lista = ["Afonso","Cezinha","aline","Tanakão"];
+function Alunos(a,b){
+    this.nome = a
+    this.nota = b
+}
 
-console.log (lista); // imprime o array inteiro
+var aluno1 = new Alunos ("Luiz", 20)
+var aluno2 = new Alunos ("Silvestre", 20)
 
-console.log (lista[3]);
+var lista = [];
 
-// adicionando elementos na lista
-lista.push("Felipe");
-console.log(lista);
+lista.push(aluno1);
+lista.push(aluno2);
 
-// tirar ultimo elemento da lista
-lista.pop();
-console.log(lista);
-
-//exibindo a quantidade de elementos na lista
-console.log(lista.length);
-
+console.log(lista)
