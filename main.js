@@ -1,12 +1,17 @@
-function Carro (valor,cor,ano,modelo,popular){
+var lista = ["Afonso","Cezinha","aline","Tanakão"];
 
-    this.valor = valor;
-    this.cor = cor;
-    this.ano = ano;
-    this.modelo = modelo;
-    this.popular = popular;
- }
-    var carro = new Carro(190000,'preto',2014,'GOL',true)
+console.log (lista); // imprime o array inteiro
 
-    console.log(carro)
- 
+console.log (lista[3]);
+
+// adicionando elementos na lista
+lista.push("Felipe");
+console.log(lista);
+
+// tirar ultimo elemento da lista
+lista.pop();
+console.log(lista);
+
+//exibindo a quantidade de elementos na lista
+console.log(lista.length);
+
