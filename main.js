@@ -1,10 +1,12 @@
-function Pessoas (a,b){
-    this.nome = a;
-    this.idade = b;
-}
+function Carro (valor,cor,ano,modelo,popular){
 
- const x = new Pessoas('Afonso',31)
- const y = new Pessoas('Abner',20)
+    this.valor = valor;
+    this.cor = cor;
+    this.ano = ano;
+    this.modelo = modelo;
+    this.popular = popular;
+ }
+    var carro = new Carro(190000,'preto',2014,'GOL',true)
 
- console.log(x);
- console.log(y);
+    console.log(carro)
+ 
